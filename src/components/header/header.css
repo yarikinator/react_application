@@ -1,0 +1,17 @@
+header nav{
+    width: 20%;
+}
+
+
+.list{
+    height: 20%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.list .list-item{
+    
+}
