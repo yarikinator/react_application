@@ -15,7 +15,7 @@ export default function Form() {
     
       const addNewPost = (e) => {
         e.preventDefault()
-        setPosts([...posts, { ...post, id: Date.now }])
+        setPosts([...posts, { ...post, id: Date.now() }])
         setPost({ title: '', body: '' })
       }
     return (
